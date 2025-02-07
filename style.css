@@ -139,7 +139,7 @@ section{
 }
 #profile{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 5rem;
     height: 80vh;
 }
