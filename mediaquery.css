@@ -2,10 +2,19 @@
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
+
     }
     .about-containers {
       flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3.5rem 0;
     }
+
+    .about-containers .about-container {
+      margin-bottom: 100px; 
+      margin-top: 3.5rem 0;
+  }
     #contact,
     #projects {
       height: fit-content;
@@ -28,7 +37,9 @@
       display: block;
     }
     .arrow {
-      display: none;
+      display: flex;
+      justify-content: center;
+      margin: 3.5rem 0;
     }
     section,
     .section-container {
