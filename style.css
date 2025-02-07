@@ -575,8 +575,12 @@ form button:hover {
     height: auto;
     margin-top: 2rem;
     transition: transform 0.3s ease;
+    position: relative;
+    left: 50%;
+    
 }
 
 .arrow:hover {
     transform: translateY(-5px);
 }
+
