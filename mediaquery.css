@@ -111,4 +111,36 @@
     .text-container {
       text-align: justify;
     }
+    @media screen and (max-width: 1400px) {
+      .section-container {
+          display: flex;
+          flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+      }
+      .about-pic {
+           /* Adds spacing below the image */
+          width: 100%;
+          max-width: 300px; /* Adjust based on the image size you want */
+      }
+      .about-containers {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+           /* Adjusts space between containers */
+      }
+      .about-containers .details-container {
+          margin-bottom: 2rem;
+          width: 100%; /* Ensures the containers take full width */
+      }
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .section__pic-container {
+          width: 100%;
+          height: auto; /* Adjusts height based on width */
+      }
+      .about-containers .details-container {
+          width: 100%; /* Stacks items vertically */
+      }
+  }
+  
   }
