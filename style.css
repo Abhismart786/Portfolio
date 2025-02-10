@@ -5,12 +5,12 @@
   padding: 0;
 }
 header {
-    background-color: #333; /* Dark background for contrast */
-    color: white; /* White text for contrast */
-    padding: -2rem 2rem; /* Padding for spacing around the content */
-    position: sticky; /* Make it sticky at the top */
-    top: 0; /* Align it to the top of the page */
-    z-index: 1000; /* Ensure it stays on top of other content */
+    background-color: #333; 
+    color: white; 
+    padding: -2rem 2rem; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
 }
 
 body {
@@ -27,13 +27,13 @@ p {
   color: rgb(180, 180, 180); /* Light gray text */
 }
 
-/* TRANSITION */
+
 a,
 .btn {
   transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
+
 nav,
 .nav-links {
   display: flex;
